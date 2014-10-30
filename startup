@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Startup script for the swarm Docker
+# This is an adequate replacement for supervisord.
+# Right?
+# Am I right?
+
+# Kick off ssh
+/etc/init.d/ssh start
+
+# kick off tmux with emacs inside it
+su -c 'tmux new-session -d -s hack /usr/local/emacs/bin/emacs' hack
+
+# Sit tight forever
+while [ 1 ] 
+do
+    sleep 300 
+done
+
+# End
