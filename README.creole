@@ -1,0 +1,9 @@
+= Emacs Hacker Swarm =
+
+Emacs (n) - the operating system of the future
+
+Hacker (n) - a person who makes the operating system of the future
+
+Swarm (v) - a group of hackers watching each other make the operating
+system of the future.
+
